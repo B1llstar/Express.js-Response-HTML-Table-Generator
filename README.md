@@ -14,7 +14,7 @@ Add this <script> to your HTML file:
 ```
 You will also need bootstrap. Don't ask me why, but it seems to only work if you have two versions. That's not all. You will need <link> tags in the head, and <script> tags right before the closing body tag for this to work. FOR BOTH. Don't ask me why!!
 ``` 
-  <link
+      <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
     />
@@ -22,6 +22,12 @@ You will also need bootstrap. Don't ask me why, but it seems to only work if you
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
     />
   ``` 
   
