@@ -11,7 +11,6 @@ Add this <script> to your HTML file:
   
 ```  
       <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
 ```
 You will also need bootstrap. Don't ask me why, but it seems to only work if you have two versions. That's not all. You will need <link> tags in the head, and <script> tags right before the closing body tag for this to work. FOR BOTH. Don't ask me why!!
 ``` 
