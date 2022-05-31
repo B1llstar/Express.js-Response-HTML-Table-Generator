@@ -135,7 +135,9 @@ header (string) - what text, if any, that you want above your table as the heade
 headers (array of strings) - the headers of your table, usually the different keys in your response object. These will appear in the uppermost cells of your table.
 names of desired search boxes (array of strings) - basically, this table widget can generate search boxes automatically. Simply list whatever properties from the response object EXACTLY how they appear, and it will make search boxes for you. If you want none, use an empty array: []. It automatically will update the table for you as you add new search criteria.
 the response.data object (array of objects) - this is what express sends back, and what we will ultimately be displaying. the lifeblood of our table.  
+  
 page buttons yes/no (boolean) - this will add pagination and create buttons for you
+  
 size of table (string) - options are "sm", "md", "lg". use whatever size depending on what you're doing.
   
 4. Call initTableWidget using the appropriate arguments.
