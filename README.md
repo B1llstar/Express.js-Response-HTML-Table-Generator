@@ -10,20 +10,38 @@ To make post requests from the client, you will need to first import the Axios l
 Add this <script> to your HTML file:
   
 ```  
-  <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"
-    ></script>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
 ```
-You will also need bootstrap:
+You will also need bootstrap. Don't ask me why, but it seems to only work if you have two versions. That's not all. You will need <link> tags in the head, and <script> tags right before the closing body tag for this to work. FOR BOTH. Don't ask me why!!
 ``` 
   <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
     />
-  ```  
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css"
+      rel="stylesheet"
+    />
+  ``` 
+  
+```
+  <body>
+    <div id="tableWidget"> 
+    </div>
+   <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  ```
+  I'll address the tableWidget div towards the bottom of this document.
   
 Next, you will need to install Express. You should already have this installed, so I will show you what a standard route looks like:
   
