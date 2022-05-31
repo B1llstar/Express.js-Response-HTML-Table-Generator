@@ -165,8 +165,9 @@ With the table headers "Major ID", "Major Name", "Department Name"
   of size large.
   
 That's it! All of your tables can now be generated with one function. Have fun!  
-  
-  
+ 
+  ![Screenshot from 2022-05-31 00-49-07](https://user-images.githubusercontent.com/25509807/171095036-e1f5cb81-8f70-41f0-9c99-fee7380b73c4.png)
+
 
 
  
