@@ -1,8 +1,6 @@
 // IMPORTANT
 // YOU MUST HAVE A DIV W/ ID 'tableWidget' somewhere in HTML!
 
-import { fix_formatting } from "./fix_formatting.js";
-
 var curPage = 0; // To keep track of where we are
 var curTable = [{}];
 var headers = [];
@@ -776,7 +774,7 @@ function initTableWidget(
       leftPgMvButton.addEventListener(
         "click",
         () => {
-          mvPgUp(tableDisplay);
+          mvPgUp(tableDisplay, tableHeaders);
         },
         false
       );
@@ -795,7 +793,7 @@ function initTableWidget(
       );
     else if (rightPgMvButton.attachEvent)
       rightPgMvButton.attachEvent("onClick", () => {
-        mvPgDown(tableDisplay);
+        mvPgDown(tableDisplay, tableHeaders);
       });
   }
   if (arrayOfIdsToSearchFor != null) {
