@@ -41,6 +41,13 @@ You will also need bootstrap. Don't ask me why, but it seems to only work if you
   </body>
   ```
   I'll address the tableWidget div towards the bottom of this document.
+
+You'll also need these:
+  ```
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  ```
+Again, just use it. It works!
   
 Next, you will need to install Express. You should already have this installed, so I will show you what a standard route looks like:
   
